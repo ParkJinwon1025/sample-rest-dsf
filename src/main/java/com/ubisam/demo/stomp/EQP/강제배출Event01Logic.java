@@ -1,6 +1,6 @@
 package com.ubisam.demo.stomp.EQP;
 
-public class 설비정지Event01Logic {
+public class 강제배출Event01Logic {
 
     // private XXXXRepository XXXXRepository;
     // private StompClient stompClient;
