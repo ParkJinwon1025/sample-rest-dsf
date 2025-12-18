@@ -1,0 +1,14 @@
+package com.ubisam.demo.domain.HMUW;
+
+import jakarta.persistence.Id;
+
+// 포트에 트레이 넣기
+public class Event02PortTrayBound {
+
+    @Id
+    private Long timestamp;
+    private ObjectTray trayObject;
+    private ObjectPort portObject;
+    private String action; // Tray에 들어가면 In Event / Tray에서 나오면 Out
+    
+}
