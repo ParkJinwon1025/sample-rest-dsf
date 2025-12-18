@@ -1,5 +1,5 @@
 package com.ubisam.demo.domain;
 
-public class ObjectJifo {
+public class ObjectBCR {
     
 }
