@@ -1,4 +1,4 @@
-package com.ubisam.demo.domain.HMUW;
+package com.ubisam.demo.domain;
 
 import jakarta.persistence.Id;
 
