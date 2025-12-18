@@ -12,9 +12,20 @@ public class 투입InTrayID업로드Event01Logic {
         // DB에 1줄 인서트
         
         // if(InTrayIdUpBit == 1){
-        //      PLC의 InTrayIDBCR Read
+        //      PLC 메모리 맵의 InTrayIDBCR필드의 값 Read
         //      if(InTrayIDBCR의 값이 null이면){
-        //           PLC의 메모리의 해당하는 필드에 TroubleCode Write
+        //           PLC의 메모리의 해당하는 필드에 "TRAY_INPUT_TRAY_ID_NOT_FOUND" Write
+        //           return;
+        //      }
+        //      tTrayCurr 테이블에서 비어있는 트레이의 정보 조회하여 rs 변수에 저장
+        //      tTrayCurr 테이블에서 비어있지 않은 트레이의 정보 조회 rsEmpty 변수에 저장
+        //      if(rs가 null이면){
+
+        //         if(rsEmpty가 null이면){
+        //             PLC의 메모리의 해당하는 필드에 "TRAY_INPUT_TRAY_ID_NOT_FOUND" Write
+        //             return;
+        //         }
+        //         rs=rsEmpty;
         //      }
         //      else {  null이 아니면
         //          if(Tray의 Usage가 있으면){
@@ -55,7 +66,7 @@ public class 투입InTrayID업로드Event01Logic {
         //          PLC 메모리의 RecipeRedownReq 필드에 1 Write
 
         //     }
-        //     if(공정이 Agint 공정이면){
+        //     if(공정이 Aging 공정이면){
         //          MstAgintRack 테이블에서 TrayId로 rackId 조회
         //          spSetAgingRack 테이블의 LineID, TrayID, RackID, Status, on_ret_num, os_ret_msg 필드에 값 저장
         //      }
