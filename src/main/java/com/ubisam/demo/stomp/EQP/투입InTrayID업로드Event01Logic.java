@@ -60,7 +60,7 @@ public class 투입InTrayID업로드Event01Logic {
         //          spSetAgingRack 테이블의 LineID, TrayID, RackID, Status, on_ret_num, os_ret_msg 필드에 값 저장
         //      }
         // }
-        // else { // InTrayIdUpBit가 1일 때
+        // else { // InTrayIdUpBit가 0일 때
         //     PLC 메모리의 InTrayOK 필드에 0 Write
         //     PLC 메모리의 InTrayNG 필드에 0 Write
         //     PLC 메모리의 recipeRedownReq 필드에 0 Write
