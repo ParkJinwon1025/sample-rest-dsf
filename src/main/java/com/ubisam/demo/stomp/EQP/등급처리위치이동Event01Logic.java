@@ -15,7 +15,7 @@ public class 등급처리위치이동Event01Logic {
         //     CellID의 앞뒤 공백과 널 문자 제거
         //     if(CellID가 null이 아닐 경우){
         //         if(CellID가 null일 경우){  코드가 원래 이랬음.
-        //             PLC의 메모리의 해당하는 필드에 "EOL_UNLOAD_CELL_ID_NOT_FOUND" Write
+        //             PLC의 메모리의 Trouble 관련 필드에 "EOL_UNLOAD_CELL_ID_NOT_FOUND" Write
         //             return;
         //         }
         //         tMstRouteOper 테이블에서 RowNumber 기준으로 내림차순 정렬한 후, OperGroupID가 3이고 EqpTypeID가 1인 데이터 중 최상위 1건만 조회하여 rs 변수에 저장
@@ -32,7 +32,7 @@ public class 등급처리위치이동Event01Logic {
 
 
         // }
-        // else { GrDeReqBit=0
+        // else { GrDeReqBit=0인 경우
         //     로그 찍기 
         // }
         

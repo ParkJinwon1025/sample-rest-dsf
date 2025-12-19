@@ -10,7 +10,7 @@ public class Event01PLCReadingAutoInput {
     
     @Id
     private Long timeStamp;
-    private ObjectPLC readingPLC;
+    private ObjectPLC objectPLC;
     private boolean bit;
 
 }

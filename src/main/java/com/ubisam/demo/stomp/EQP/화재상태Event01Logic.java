@@ -10,13 +10,11 @@ public class 화재상태Event01Logic {
         // DB에 1줄 인서트
 
         // if(FireStatusBit == 1){
-        //      tMstEquipment 테이블 중 해당 트레이 열에 "T_Trouble" 저장
-        //      tMstEquipment 테이블 중 해당 트레이 열에 "true" 저장
+        //      tMstEquipment 테이블 중 필터에 해당하는 트레이 열에 TrayID와 UnitStatus Set
 
         // }
         // else if(FireStatusBit == 0) {
-        //      tMstEquipment 테이블 중 해당 트레이 열에 "T_Trouble" 저장
-        //      tMstEquipment 테이블 중 해당 트레이 열에 "false" 저장
+        //      tMstEquipment 테이블 중 필터에 해당하는 트레이 열에 TrayID와 UnitStatus Set
         // }
 
     }

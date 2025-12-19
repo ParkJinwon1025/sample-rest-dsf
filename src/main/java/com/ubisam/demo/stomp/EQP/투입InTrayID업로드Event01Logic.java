@@ -68,7 +68,7 @@ public class 투입InTrayID업로드Event01Logic {
         //     }
         //     if(공정이 Aging 공정이면){
         //          MstAgintRack 테이블에서 TrayId로 rackId 조회
-        //          spSetAgingRack 테이블의 LineID, TrayID, RackID, Status, on_ret_num, os_ret_msg 필드에 값 저장
+        //          spSetAgingRack 프로시저를 통해 LineID, TrayID, RackID, Status, on_ret_num, os_ret_msg 필드에 값 저장
         //      }
         // }
         // else { // InTrayIdUpBit가 0일 때

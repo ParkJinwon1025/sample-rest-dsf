@@ -12,5 +12,6 @@ public class ObjectTray {
 
     @Id
     private UUID id;
+    private ObjectCell objectCell;
     
 }

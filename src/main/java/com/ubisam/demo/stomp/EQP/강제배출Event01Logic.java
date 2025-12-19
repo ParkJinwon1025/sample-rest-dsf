@@ -12,11 +12,11 @@ public class 강제배출Event01Logic {
         // if(ForceOutBit == 1){
         //      PLC의 CellIDBCRForOut필드값 Read
         //      if(강제배출 배드셀일 경우){
-        //          PLC에 해당하는 필드에 troubleCode 전송
+        //          PLC의 메모리의 Trouble 관련 필드에 CELLOUT_INFO_ERROR 전송
         //
         //       }
         //       else {  강제배출이 아닌경우
-        //          PLC 메모리의 ForceOutConfirm 필드에 1 Write
+        //          PLC 메모리의 ForceOutConfirm 필드에 0 Write
         //       }
         // }
 

@@ -78,6 +78,7 @@ public class 수동투입Event01Logic {
     //                 if(셀 공정을 시작하고 셀 공정 시작보고에 실패한 경우){
     //                     PLC 메모리맵의 HandInputOK 필드에 "2"라는 값을 저장
     //                     PLC의 메모리의 해당하는 필드에 "HAND_INPUT_CELL_PROC_START_FAIL" Write
+    //                     return
     //                 }
 
     //                 # Tray에서 배출된 셀 정보 저장(셀 Output from Tray) 

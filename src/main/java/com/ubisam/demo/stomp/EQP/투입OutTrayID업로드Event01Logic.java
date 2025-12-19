@@ -20,15 +20,17 @@ public class 투입OutTrayID업로드Event01Logic {
         //      else { 현재 TrayID가 Null이 아니면
         //          if(Usage가 없으면){
         //              PLC의 OutTrayNG 필드에 1 Write
-        //              PLC의 OutTrayOK 필드에 1 Write
-        //              tMstEquipMent 테이블에 trayID 저장
+        //              return;
+
         //          }
+        //          PLC의 OutTrayOK 필드에 1 Write
+        //          tMstEquipMent 테이블에 trayID 저장
 
         //      }
         // }
         // else { OutTrayIdUpBit == 0
         //     PLC의 OutTrayOK 필드에 0 Write
-        //     PLC의 OutTrayOK 필드에 0 Write
+        //     PLC의 OutTrayNG 필드에 0 Write
         // }
 
     }

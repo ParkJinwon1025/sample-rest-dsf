@@ -13,4 +13,6 @@ public class ObjectCell {
 
     @Id
     private UUID id;
+    private String location;
+
 }

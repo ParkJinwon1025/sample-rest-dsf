@@ -10,7 +10,7 @@ public class 수동동작Event01Logic {
         // DB에 1줄 인서트
 
         // if(MCManualBit == 1){
-        //      tMstEquipment에 "Manual" 저장
+        //      tMstEquipment 테이블에서 필터에 맞는 열의l TrayID와 UnitStatus 업데이트 ( UnitStatus는 Maint )
 
         // }
 

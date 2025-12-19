@@ -10,7 +10,7 @@ public class 이상여부확인Event01Logic {
         // DB에 1줄 인서트
 
         // if(HasTroubleBit == 1){
-        //      PLC의 HasTrouble 메모리 주소에 0 저장
+        //      PLC 메모리 맵의 HasTrouble 필드에 0 Write
 
         // }
 

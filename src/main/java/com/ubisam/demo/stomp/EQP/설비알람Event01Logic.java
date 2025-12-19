@@ -11,7 +11,7 @@ public class 설비알람Event01Logic {
         
         // if(AlarmBit == 1){
         //      tMstEquipment에 alarm_lst값 저장
-        //      tMstEquipment 테이블 중 해당 트레이 열에 "T_Trouble" 저장
+        //      tMstEquipment 테이블 중 해당하는 트레이 열에 "T_Trouble" 저장
 
         // }
         // else if(AlarmBit == 0) {

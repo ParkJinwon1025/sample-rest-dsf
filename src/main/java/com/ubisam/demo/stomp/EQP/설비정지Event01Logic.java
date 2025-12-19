@@ -10,7 +10,7 @@ public class 설비정지Event01Logic {
         // DB에 1줄 인서트
         
         // if(MCPauseBit == 1){
-        //      tMstEquipment에 "Pause" 저장
+        //      tMstEquipment 테이블에서 필터에 맞는 열의l TrayID와 UnitStatus 업데이트 ( UnitStatus는 pause )
 
         // }
 

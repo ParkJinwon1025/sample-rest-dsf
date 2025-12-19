@@ -16,15 +16,15 @@ public class 배출OutTrayID업로드Event01Logic {
         //     tTrayCurr 테이블에서 비어있는 트레이의 정보 조회하여 rs 변수에 저장
         //     tTrayCurr 테이블에서 비어있지 않은 트레이의 정보 조회 rsE 변수에 저장
         //     if(rs와 rsE가 모두 null 일 경우){
-        //         PLC의 메모리의 해당하는 필드에 "TRAY_OUTPUT_TRAY_ID_NOT_FOUND" Write
+        //         PLC의 메모리의 Trouble 관련 필드에 "TRAY_OUTPUT_TRAY_ID_NOT_FOUND" Write
         //     }
         //     else { rs와 rsE가 모두 null이 아닐 경우
         //         PLC 메모리맵의 OutTrayOutputOK 필드에 1 Write
         //         tMstEquipment에 필터에 해당하는 열의 trayId Update
         //         if(다음 설비 타입이 Aging이고 다음 공정 그룹도 Agint일 경우){
         //             tMstAgingRack 테이블에서 RackID 조회
-        //             spSetAgingRack 테이블에서 as_LineID, as_TrayId, as_RackID, as_Status, on_ret_num, os_ret_msg 값 Set(Aging 입고 처리)
-        //              spSetAgingRack 테이블에서 as_LineID, as_TrayId, as_RackID, as_Status, on_ret_num, os_ret_msg 값 Set(Aging 입고 완료 처리)
+        //             spSetAgingRack 프로시저를 통해서 as_LineID, as_TrayId, as_RackID, as_Status, on_ret_num, os_ret_msg 값 Set(Aging 입고 처리)
+        //             spSetAgingRack 프로시저를 통해서 as_LineID, as_TrayId, as_RackID, as_Status, on_ret_num, os_ret_msg 값 Set(Aging 입고 완료 처리)
         //         }
         //     }
 
