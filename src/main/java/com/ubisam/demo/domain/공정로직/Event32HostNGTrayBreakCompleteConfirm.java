@@ -5,12 +5,13 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 배출 Tray Break 요청 with TrayId
+// NG Tray Break 완료 Confirm
 @Data
-public class Event21EqpTrayBreakRequest {
+public class Event32HostNGTrayBreakCompleteConfirm {
 
     @Id
     private Long timestamp;
     private ObjectTray objectTray;
+    private String status; //응답
     
 }

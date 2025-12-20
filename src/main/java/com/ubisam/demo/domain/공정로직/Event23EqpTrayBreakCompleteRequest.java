@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// TrayBreak 완료 요청
+// 배출 Tray Break 완료 요청
 @Data
 public class Event23EqpTrayBreakCompleteRequest {
 
