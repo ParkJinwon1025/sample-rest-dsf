@@ -5,9 +5,9 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray 배출 요청 with TrayID
+// NG Tray 배출 완료 보고
 @Data
-public class Event60EqpNGTrayOutputRequest {
+public class Event65EqpNGTrayOutputCompleteReport {
 
     @Id
     private Long timestamp;

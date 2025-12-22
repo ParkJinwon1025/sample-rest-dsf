@@ -1,19 +1,16 @@
 package com.ubisam.demo.domain.공정로직;
 
 import com.ubisam.demo.domain.ObjectTray;
-import com.ubisam.demo.domain.ObjectUser;
 
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray 배출 완료 보고 Confirm
+// NG Tray 배출 요청 with TrayID
 @Data
-public class Event63HostNGTrayOutputCompleteConfirm {
+public class Event63EqpNGTrayOutputRequest {
 
     @Id
     private Long timestamp;
     private ObjectTray objectTray;
-    private ObjectUser objectUser;
-    private String status;
     
 }

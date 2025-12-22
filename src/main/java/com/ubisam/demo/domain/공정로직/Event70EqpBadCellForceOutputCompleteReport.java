@@ -7,7 +7,7 @@ import lombok.Data;
 
 // 셀 강제배출 완료 보고 with CellId
 @Data
-public class Event68EqpCellForceOutputCompleteReport {
+public class Event70EqpBadCellForceOutputCompleteReport {
 
     @Id
     private Long timestamp;

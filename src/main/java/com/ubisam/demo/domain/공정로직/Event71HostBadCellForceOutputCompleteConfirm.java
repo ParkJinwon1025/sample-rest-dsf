@@ -6,9 +6,9 @@ import com.ubisam.demo.domain.ObjectUser;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 셀 강제배출 요청 Confirm
+// 셀 강제배출 완료 보고 Confirm
 @Data
-public class Event65HostCellForceOutputConfirm {
+public class Event71HostBadCellForceOutputCompleteConfirm {
 
     @Id
     private Long timestamp;

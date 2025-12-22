@@ -6,9 +6,9 @@ import com.ubisam.demo.domain.ObjectUser;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray 배출 요청 Confirm
+// NG Tray 배출 완료 보고 Confirm
 @Data
-public class Event61HostNGTrayOutputConfirm {
+public class Event66HostNGTrayOutputCompleteConfirm {
 
     @Id
     private Long timestamp;
