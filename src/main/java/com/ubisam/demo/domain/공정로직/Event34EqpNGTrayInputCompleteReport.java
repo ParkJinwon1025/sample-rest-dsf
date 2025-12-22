@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray 투입 완료 요청
+// NG Tray 투입 완료 보고
 @Data
 public class Event34EqpNGTrayInputCompleteReport {
 

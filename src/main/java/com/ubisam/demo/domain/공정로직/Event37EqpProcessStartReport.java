@@ -13,4 +13,6 @@ public class Event37EqpProcessStartReport {
     private Long timestamp;
     private ObjectEQP objectEQP;
 
+    private String action;
+
 }

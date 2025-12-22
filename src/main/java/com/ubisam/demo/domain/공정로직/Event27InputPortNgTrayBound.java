@@ -6,6 +6,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+// 투입부포트 NG Tray UnBound
 @Data
 public class Event27InputPortNgTrayBound {
 

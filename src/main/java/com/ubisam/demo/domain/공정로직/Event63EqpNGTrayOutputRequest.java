@@ -12,5 +12,7 @@ public class Event63EqpNGTrayOutputRequest {
     @Id
     private Long timestamp;
     private ObjectTray objectTray;
+
+    private String action;
     
 }

@@ -12,5 +12,7 @@ public class Event65EqpNGTrayOutputCompleteReport {
     @Id
     private Long timestamp;
     private ObjectTray objectTray;
+
+    private String action;
     
 }

@@ -13,4 +13,6 @@ public class Event60EqpRackOutputCompleteRequest {
     private Long timestamp;
     private ObjectRack objectRack;
 
+    private String action;
+
 }

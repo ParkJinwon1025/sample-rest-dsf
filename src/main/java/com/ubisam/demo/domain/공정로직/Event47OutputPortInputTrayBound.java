@@ -6,6 +6,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+// 배출부 포트 투입 Tray Bound
 @Data
 public class Event47OutputPortInputTrayBound {
 

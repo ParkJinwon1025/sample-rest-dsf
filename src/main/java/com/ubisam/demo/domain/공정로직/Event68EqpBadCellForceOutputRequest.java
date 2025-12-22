@@ -12,5 +12,7 @@ public class Event68EqpBadCellForceOutputRequest {
     @Id
     private Long timestamp;
     private ObjectCell objectCell;
+
+    private String action;
     
 }

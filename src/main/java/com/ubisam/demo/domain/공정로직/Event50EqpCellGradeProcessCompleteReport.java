@@ -12,5 +12,7 @@ public class Event50EqpCellGradeProcessCompleteReport {
     @Id
     private Long timestamp;
     private ObjectCell objectCell;
+
+    private String action;
     
 }

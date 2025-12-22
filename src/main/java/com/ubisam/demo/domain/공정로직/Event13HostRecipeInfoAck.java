@@ -12,6 +12,7 @@ public class Event13HostRecipeInfoAck {
     
     @Id
     private Long timestamp;
+    private Event12EqpRecipeInfoRequest event12;
     private ObjectRoute objectRoute;
     private ObjectRecipe objectRecipe;
     

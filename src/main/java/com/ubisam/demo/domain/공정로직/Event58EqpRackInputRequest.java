@@ -13,4 +13,5 @@ public class Event58EqpRackInputRequest {
     private Long timestamp;
     private ObjectRack objectRack;
     
+    private String action;
 }

@@ -1,6 +1,5 @@
 package com.ubisam.demo.domain;
 
-import java.util.List;
 import java.util.UUID;
 
 import jakarta.persistence.Entity;
