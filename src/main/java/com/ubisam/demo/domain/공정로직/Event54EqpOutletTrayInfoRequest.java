@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 배출 Tray 정보 확인 요청 with TrayId
+// 54. 배출 Tray 정보 확인 요청 with TrayId
 @Data
 public class Event54EqpOutletTrayInfoRequest {
 

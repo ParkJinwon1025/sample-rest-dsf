@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 자동 투입 - 자동 셀 투입 요청 Confirm
+// 1-2. 자동 투입 - 자동 셀 투입 요청 Confirm
 @Data
 public class Event36_1_2HostAutoCellInputAck {
 

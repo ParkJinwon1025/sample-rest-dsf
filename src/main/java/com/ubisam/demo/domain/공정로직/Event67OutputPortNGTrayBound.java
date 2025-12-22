@@ -6,6 +6,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+// 67. 배출부포트 NGTray Bound
 @Data
 public class Event67OutputPortNGTrayBound {
 
@@ -14,6 +15,6 @@ public class Event67OutputPortNGTrayBound {
     private ObjectPort objectPort;
     private ObjectTray objectTray;
 
-    private String action; // I(Input Port) / O(Output Port)
+    private String action; // Bound / UnBound
 
 }

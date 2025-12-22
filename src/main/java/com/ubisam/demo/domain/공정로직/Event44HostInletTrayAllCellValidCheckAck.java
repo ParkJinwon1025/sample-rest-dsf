@@ -7,7 +7,7 @@ import com.ubisam.demo.domain.ObjectCell;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입 Tray 전체 Cell Valid Check 요청 Confirm
+// 44. 투입 Tray 전체 Cell Valid Check 요청 Confirm
 @Data
 public class Event44HostInletTrayAllCellValidCheckAck {
     

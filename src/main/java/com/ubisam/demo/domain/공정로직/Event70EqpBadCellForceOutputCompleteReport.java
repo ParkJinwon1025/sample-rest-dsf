@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectCell;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 셀 강제배출 완료 보고 with CellId
+// 70. 셀 강제배출 완료 보고 with CellId
 @Data
 public class Event70EqpBadCellForceOutputCompleteReport {
 
@@ -13,6 +13,6 @@ public class Event70EqpBadCellForceOutputCompleteReport {
     private Long timestamp;
     private ObjectCell objectCell;
 
-    private String action;
+    private String action;  // Complete / Not Complete
     
 }

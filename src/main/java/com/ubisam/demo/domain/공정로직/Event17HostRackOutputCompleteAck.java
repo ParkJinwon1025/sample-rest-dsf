@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// Rack 출고 완료 요청 Confirm
+// 17. Rack 출고 완료 요청 Confirm
 @Data
 public class Event17HostRackOutputCompleteAck {
 

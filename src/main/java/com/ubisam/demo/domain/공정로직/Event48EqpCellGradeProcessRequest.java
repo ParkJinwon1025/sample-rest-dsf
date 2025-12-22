@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectCell;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 셀 등급처리 요청 with CellID
+// 48. 셀 등급처리 요청 with CellID
 @Data
 public class Event48EqpCellGradeProcessRequest {
 
@@ -13,5 +13,4 @@ public class Event48EqpCellGradeProcessRequest {
     private Long timestamp;
     private ObjectCell objectCell;
 
-    private String action;
 }

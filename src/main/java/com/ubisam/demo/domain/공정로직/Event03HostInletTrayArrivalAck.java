@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입부 Tray 도착 Confirm
+// 3. 투입부 Tray 도착 Confirm
 @Data
 public class Event03HostInletTrayArrivalAck {
     

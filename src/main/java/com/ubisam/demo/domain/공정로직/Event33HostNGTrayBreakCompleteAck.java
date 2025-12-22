@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray Break 완료 Confirm
+// 33. NG Tray Break 완료 Confirm
 @Data
 public class Event33HostNGTrayBreakCompleteAck {
 

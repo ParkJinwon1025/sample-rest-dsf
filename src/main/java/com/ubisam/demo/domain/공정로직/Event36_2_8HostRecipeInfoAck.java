@@ -6,7 +6,7 @@ import com.ubisam.demo.domain.ObjectRoute;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// Recipe 요청 Confirm with RouteID
+// 2-8. Recipe 요청 Confirm with RouteID
 @Data
 public class Event36_2_8HostRecipeInfoAck {
 

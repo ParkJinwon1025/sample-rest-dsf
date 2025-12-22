@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray 배출 완료 보고
+// 65. NG Tray 배출 완료 보고
 @Data
 public class Event65EqpNGTrayOutputCompleteReport {
 

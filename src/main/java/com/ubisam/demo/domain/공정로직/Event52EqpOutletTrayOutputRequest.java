@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 배출 Tray 배출 요청 With TrayID
+// 52. 배출 Tray 배출 요청 With TrayID
 @Data
 public class Event52EqpOutletTrayOutputRequest {
 
@@ -13,6 +13,4 @@ public class Event52EqpOutletTrayOutputRequest {
     private Long timestamp;
     private ObjectTray objectTray;
 
-    private String action;
-    
 }

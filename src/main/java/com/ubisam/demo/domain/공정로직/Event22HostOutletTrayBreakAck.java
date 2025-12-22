@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 배출 Tray Break 요청 Confirm
+// 22. 배출 Tray Break 요청 Confirm
 @Data
 public class Event22HostOutletTrayBreakAck {
 

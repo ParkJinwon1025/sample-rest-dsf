@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectRack;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// Rack 출고 완료 요청 with TrayID/RackID
+// 2-11. Rack 출고 완료 요청 with TrayID/RackID
 @Data
 public class Event36_2_11EqpRackOutputCompleteReport {
 
@@ -13,5 +13,4 @@ public class Event36_2_11EqpRackOutputCompleteReport {
     private Long timestamp;
     private ObjectRack objectRack;
 
-    private String action;
 }

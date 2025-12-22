@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 셀 공정 시작 보고 Confirm
+// 1-6. 셀 공정 시작 보고 Confirm
 @Data
 public class Event36_1_6HostCellProcessStartAck {
 

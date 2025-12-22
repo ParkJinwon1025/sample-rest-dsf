@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray Break 요청 with TrayID
+// 30. NG Tray Break 요청 with TrayID
 @Data
 public class Event30EqpNGTrayBreakRequest {
 
@@ -13,6 +13,4 @@ public class Event30EqpNGTrayBreakRequest {
     private Long timestamp;
     private ObjectTray objectTray;
 
-    private String action;
-    
 }

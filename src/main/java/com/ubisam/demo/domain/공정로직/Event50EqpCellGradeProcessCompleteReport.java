@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectCell;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 셀 등급처리 완료 보고
+// 50. 셀 등급처리 완료 보고
 @Data
 public class Event50EqpCellGradeProcessCompleteReport {
 
@@ -13,6 +13,6 @@ public class Event50EqpCellGradeProcessCompleteReport {
     private Long timestamp;
     private ObjectCell objectCell;
 
-    private String action;
+    private String action; // Complete / Not Complete
     
 }

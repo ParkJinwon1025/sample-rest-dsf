@@ -6,6 +6,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
+// 18. 투입부포트 배출Tray UnBound
 @Data
 public class Event18InputPortOutputTrayBound {
 
@@ -14,6 +15,6 @@ public class Event18InputPortOutputTrayBound {
     private ObjectPort objectPort;
     private ObjectTray objectTray;
 
-    private String action; // I(Input Port) / O(Output Port)
+    private String action; // Bound / UnBound
 
 }

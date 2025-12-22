@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectCell;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 셀 공정 시작 보고 with CellID
+// 1-5. 셀 공정 시작 보고 with CellID
 @Data
 public class Event36_1_5EqpCellProcessStartReport {
 
@@ -13,5 +13,5 @@ public class Event36_1_5EqpCellProcessStartReport {
     private Long timestamp;
     private ObjectCell objectCell;
     
-    private String action;
+    private String action; // Start / End 
 }

@@ -5,7 +5,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입부 Tray 도착 with TrayID
+// 2. 투입부 Tray 도착 with TrayID
 @Data
 public class Event02EqpInletTrayArrivalReport {
 
@@ -13,6 +13,6 @@ public class Event02EqpInletTrayArrivalReport {
     private Long timestamp;
     private ObjectTray ObjecTray;
 
-    private String action; // 도착 / 도착 안함
+    private boolean isArrival; // 도착 여부
 
 }

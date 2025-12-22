@@ -7,7 +7,7 @@ import com.ubisam.demo.domain.ObjectCell;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입 Tray 전체 셀 정보 Confirm
+// 9. 투입 Tray 전체 셀 정보 Confirm
 @Data
 public class Event09HostCellsInfoAck {
     

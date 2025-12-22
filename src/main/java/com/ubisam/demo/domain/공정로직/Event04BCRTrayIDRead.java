@@ -6,7 +6,7 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 바코드리더기 TrayID Read
+// 4. 바코드리더기 TrayID Read
 @Data
 public class Event04BCRTrayIDRead {
     
@@ -14,5 +14,7 @@ public class Event04BCRTrayIDRead {
     private Long timestamp;
     private ObjectTray objectTray;
     private ObjectBarcode objectBarcode;
+    
+    private boolean isBcrReadSucess; // 바코드 Read 성공 여부
 
 }

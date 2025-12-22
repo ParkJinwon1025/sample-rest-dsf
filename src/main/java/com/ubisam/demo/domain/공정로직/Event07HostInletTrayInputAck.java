@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입 Tray 투입 요청 Confirm
+// 7. 투입 Tray 투입 요청 Confirm
 @Data
 public class Event07HostInletTrayInputAck {
     

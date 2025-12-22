@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 배출 Tray 정보 확인 요청 Confirm
+// 55. 배출 Tray 정보 확인 요청 Confirm
 @Data
 public class Event55HostOutletTrayInfoAck {
 

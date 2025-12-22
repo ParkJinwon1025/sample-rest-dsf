@@ -3,7 +3,7 @@ package com.ubisam.demo.domain.공정로직;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// NG Tray 투입 요청 Confirm
+// 29. NG Tray 투입 요청 Confirm
 @Data
 public class Event29HostNGTrayInputAck {
 
