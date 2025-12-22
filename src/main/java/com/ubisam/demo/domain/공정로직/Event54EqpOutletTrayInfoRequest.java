@@ -7,7 +7,7 @@ import lombok.Data;
 
 // 배출 Tray 정보 확인 요청 with TrayId
 @Data
-public class Event52EqpOutletTrayInfoRequest {
+public class Event54EqpOutletTrayInfoRequest {
 
     @Id 
     private Long timestamp;

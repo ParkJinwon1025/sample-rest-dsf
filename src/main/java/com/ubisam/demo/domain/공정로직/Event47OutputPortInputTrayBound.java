@@ -1,19 +1,19 @@
 package com.ubisam.demo.domain.공정로직;
 
+import com.ubisam.demo.domain.ObjectPort;
 import com.ubisam.demo.domain.ObjectTray;
-import com.ubisam.demo.domain.ObjectUser;
 
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 배출 Tray 배출 완료 보고 Confirm
 @Data
-public class Event55HostOutletTrayOutputCompleteConfirm {
-    
+public class Event47OutputPortInputTrayBound {
+
     @Id
     private Long timestamp;
+    private ObjectPort objectPort;
     private ObjectTray objectTray;
-    private ObjectUser objectUser;
-    private String status;
+
+    private String action; // I(Input Port) / O(Output Port)
 
 }

@@ -5,12 +5,13 @@ import com.ubisam.demo.domain.ObjectTray;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입 Tray 전체 Cell Valid Check 요청 with TrayID
+// 배출 Tray 배출 완료 보고
 @Data
-public class Event42EqpINletTrayAllCellValidCheckRequest {
+public class Event56EqpOutletTrayOutputCompleteReport {
 
     @Id
     private Long timestamp;
     private ObjectTray objectTray;
+    private String status;
     
 }

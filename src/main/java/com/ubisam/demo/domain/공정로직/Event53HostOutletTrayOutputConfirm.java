@@ -6,14 +6,14 @@ import com.ubisam.demo.domain.ObjectUser;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// 투입 Tray 배출 완료 보고 Confirm
+//배출 Tray 배출 요청 Confirm
 @Data
-public class Event45HostInletTrayOutputCompleteConfirm {
+public class Event53HostOutletTrayOutputConfirm {
 
     @Id
-    private Long tiemstamp;
+    private Long timestamp;
     private ObjectTray objectTray;
     private ObjectUser objectUser;
-    private String status; // 응답
+    private String status;
     
 }
